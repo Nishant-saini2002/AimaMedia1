@@ -1,0 +1,356 @@
+.aima {
+  background-color: #f0f2f5 !important;
+  color: #333333 !important;
+}
+
+#error {
+  color: red;
+  text-align: center;
+}
+.search {
+  width: 80% !important;
+  margin-left: 20px !important;
+}
+
+.search input {
+  width: 100% !important;
+  border: 1px solid black !important;
+  outline: none !important;
+}
+.search_bar_box {
+  position: sticky !important;
+  top: 0 !important;
+}
+.all-india-1 {
+  display: none !important;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2) !important;
+}
+
+.all-india-1:last-child i {
+  color: blue !important;
+}
+.offcanvas-body a {
+  color: black !important;
+  text-decoration: none !important;
+  transition: none !important;
+}
+.offcanvas-body a:hover {
+  color: orange !important;
+  text-decoration: underline !important;
+}
+.making-life-1 i {
+  font-size: 15px;
+  text-align: center;
+  line-height: 28px;
+  width: 28px;
+  height: 28px;
+  color: white;
+  /* border-radius: 50%; */
+  margin-left: 3px;
+}
+
+#facebook {
+  background-color: #3b5998;
+}
+
+#twitter {
+  background-color: #1da1f2;
+}
+
+#google {
+  background-color: #0077b5;
+}
+
+#insta {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+#youtube {
+  background-color: #cd201f;
+}
+.navbar-toggler-icon_inner i {
+  color: black !important;
+  font-size: 22px !important;
+}
+.light-color {
+  background-color: #f0f2f5 !important;
+}
+.meida-header {
+  display: none !important;
+}
+.terms a:hover {
+  color: blueviolet !important;
+  text-decoration: underline !important;
+}
+.menu-tags-link a {
+  text-decoration: none !important;
+  color: black !important;
+  margin: 0 15px;
+  /* transition: 0.2s ease-in-out; */
+  /* border: 2px solid black; */
+}
+/* .menu-tags-link a:hover{
+    color: blueviolet !important;
+    text-decoration: underline !important;
+}
+.menu-tags-link a::after{
+    content: "hlo" !important;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+} */
+
+.back-img-1 {
+  background: url(../aimaimage/pexels-photo-1.webp) !important;
+  height: 40vh !important;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  /* background-color: #0077b5 !important; */
+}
+.click-image {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  line-height: 28px;
+  border-radius: 50%;
+  background-color: white;
+}
+form label {
+  display: block !important;
+  margin-bottom: 15px !important;
+}
+
+form input {
+  width: 100% !important;
+  /* border: none; */
+  outline: none;
+  /* padding: 20px !important; */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+form button {
+  border: none;
+  background-color: orangered;
+  color: white;
+}
+form button:hover {
+  background-color: #333;
+}
+form .form-group select {
+  width: 100% !important;
+  outline: none !important;
+  padding: 10px 0;
+}
+.next-btn {
+  background-color: orangered !important;
+  color: white !important;
+  letter-spacing: 2px !important;
+}
+.next-btn:hover {
+  background-color: #333 !important;
+}
+.aimastrip-img {
+  display: none;
+}
+.read_more {
+  box-shadow: inset 0px -3px 7px 0px #29bbff;
+  background: linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+  background-color: #2dabf9;
+  border-radius: 3px;
+  border: 1px solid #4484a0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 16px;
+  padding: 0px 4px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #4762b1;
+  text-align: center;
+}
+.read_less {
+  display: none;
+}
+#readless {
+  /* font-size: 15px !important; */
+  line-height: 35px !important;
+}
+#one {
+  width: 80% !important;
+}
+.delet-post {
+  display: none;
+  /* border: 2px solid black; */
+  position: absolute;
+  width: 100%;
+  /* padding: 5px; */
+}
+.delet-post li {
+  list-style-type: none;
+  text-align: center;
+}
+.delet-post button {
+  margin: 0 0 7px 0px !important;
+  padding: 5px 5px !important;
+  width: 100%;
+  display: block;
+  background-color: lightskyblue;
+  color: white;
+  border: none;
+}
+.hover-icon:hover .delet-post {
+  display: block !important;
+}
+
+/* Show comment starts  */
+/* Show comment ends  */
+@media screen and (max-width: 600px) {
+  .aima {
+    font-size: 11px !important;
+    padding: 0 !important;
+  }
+
+  .all-india {
+    display: none !important;
+  }
+  .all-india-1 {
+    display: block !important;
+    display: flex !important;
+  }
+  .ai_media {
+    font-size: 13px !important;
+    width: 25%;
+    display: flex !important;
+    align-items: center !important;
+  }
+  .bg-black {
+    background-color: #f0f2f5 !important;
+  }
+  .meida-header {
+    display: block !important;
+  }
+  .second_media_header {
+    display: none !important;
+  }
+  .about {
+    display: none !important;
+  }
+  .login {
+    width: 100% !important;
+  }
+  .singup {
+    width: 100% !important;
+  }
+  .verify {
+    font-size: 16px !important;
+  }
+  .about-width {
+    width: 100% !important;
+  }
+  .aimastrip-img {
+    display: block;
+  }
+  #readmore {
+    font-size: 15px !important;
+  }
+  #readless {
+    font-size: 15px !important;
+    line-height: normal !important;
+  }
+  .heading-all-india {
+    font-size: 15px !important;
+  }
+  .contact-width {
+    width: 100% !important;
+  }
+  .box_home_menu {
+    display: none !important;
+  }
+  .round {
+    width: 53px !important;
+    height: 38px !important;
+    border-radius: 50% !important;
+  }
+  .ml-2 {
+    height: 19px !important;
+    width: 30px !important;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  .aima {
+    font-size: 18px !important;
+    /* padding: 0 !important; */
+  }
+
+  .all-india {
+    display: none !important;
+  }
+
+  .all-india-1 {
+    display: block !important;
+    display: flex !important;
+  }
+
+  .all-india-1:last-child i {
+    font-size: 25px !important;
+  }
+
+  .bg-black {
+    background-color: #f0f2f5 !important;
+  }
+  .meida-header {
+    display: block !important;
+  }
+  .second_media_header {
+    display: none !important;
+  }
+  .about {
+    display: none !important;
+  }
+  .login {
+    width: 100% !important;
+  }
+  form label {
+    font-size: 22px !important;
+    margin-bottom: 20px !important;
+  }
+  form input {
+    margin-bottom: 10px;
+  }
+  form button {
+    margin-top: 15px !important;
+    font-size: 25px;
+    padding: 20px 15px;
+  }
+  /* form a,p{
+        margin-top: 10px !important;
+        font-size: 16px !important;
+    } */
+  .about-width {
+    width: 100% !important;
+  }
+  .aimastrip-img {
+    display: block;
+  }
+  .heading-all-india {
+    font-size: 20px !important;
+  }
+  .contact-width {
+    width: 80vw !important;
+  }
+}
